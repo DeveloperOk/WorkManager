@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
                 //Medium post
                 //https://medium.com/@appdevinsights/work-manager-android-6ea8daad56ee
 
-                CountDownLatchApp()
+                WorkManagerApp()
 
             }
         }
@@ -63,7 +63,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun CountDownLatchApp() {
+fun WorkManagerApp() {
 
     Column(horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
